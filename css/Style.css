@@ -1,0 +1,83 @@
+
+*{
+    margin:0px 0px ;
+    padding: 0px 0px;
+}
+.game{ 
+  background: linear-gradient(to right, #000000, #01081a);
+  
+  }
+  .heading{
+      color: rgb(255, 255, 255);
+      background: linear-gradient(to right, #2f2e31, #0d0d8d);
+    /* background-color: rgb(231, 156, 17); */
+    border: 2px solid white;
+    padding-left: 35vw;
+    border-radius: 20px;
+}
+.head2 h1{
+    text-align: center;
+    color:white;
+}
+.head h1{
+    text-align: center;
+    color:white;
+}
+.container{ 
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    flex-direction: column;
+}
+.boxcontainers{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    /* background-color: rgb(231, 156, 17); */
+    background: linear-gradient(to right, #a18712, #0d0d8d);
+
+    z-index: 2;
+    height: 450px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 50px;
+    font-weight: bolder;
+    display: flex;        
+     flex-flow: column  ;
+    justify-content:center;  
+    align-items:center;
+
+}
+.container .box h1{
+    font-size: 40px;
+}
+.image{ 
+    
+    /* background-color: rgb(88, 83, 83);  */
+    background-color: antiquewhite; 
+    margin: 20px auto 10px auto;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    
+    height: 300px;
+    width: 300px; 
+}
+.image :hover{
+    cursor: pointer;
+}
+.carousel-caption h5{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#result{
+    color: white;
+    font-size: 40px;
+    text-align: center; 
+} 
